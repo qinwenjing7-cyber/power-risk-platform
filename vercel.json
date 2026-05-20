@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/weather/:path*",
+      "destination": "https://nq2tuphf9j.re.qweatherapi.com/v7/:path*"
+    },
+    {
+      "source": "/api/geo/:path*",
+      "destination": "https://geoapi.qweather.com/v2/:path*"
+    },
+    {
+      "source": "/((?!api/).*)",
+      "destination": "/index.html"
+    }
+  ]
+}

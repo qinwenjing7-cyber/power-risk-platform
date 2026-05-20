@@ -1,0 +1,14 @@
+[
+  {"type": "暴雨", "city": "合肥市", "year": 2016, "count": 3, "severity": 3.2},
+  {"type": "高温", "city": "合肥市", "year": 2016, "count": 4, "severity": 4.1},
+  {"type": "寒潮", "city": "合肥市", "year": 2016, "count": 1, "severity": 1.5},
+  {"type": "台风", "city": "合肥市", "year": 2016, "count": 0, "severity": 0},
+  {"type": "暴雪", "city": "合肥市", "year": 2016, "count": 1, "severity": 2.0},
+  {"type": "干旱", "city": "合肥市", "year": 2016, "count": 2, "severity": 2.5},
+  {"type": "暴雨", "city": "合肥市", "year": 2025, "count": 5, "severity": 4.8},
+  {"type": "高温", "city": "合肥市", "year": 2025, "count": 7, "severity": 6.5},
+  {"type": "寒潮", "city": "合肥市", "year": 2025, "count": 2, "severity": 2.2},
+  {"type": "台风", "city": "合肥市", "year": 2025, "count": 1, "severity": 1.8},
+  {"type": "暴雪", "city": "合肥市", "year": 2025, "count": 2, "severity": 3.0},
+  {"type": "干旱", "city": "合肥市", "year": 2025, "count": 4, "severity": 4.5}
+]

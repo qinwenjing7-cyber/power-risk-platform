@@ -1,0 +1,9 @@
+{
+  "city": "合肥市",
+  "temperature": 28.5,
+  "humidity": 72,
+  "windSpeed": 4.2,
+  "precipitation": 2.1,
+  "condition": "多云",
+  "updateTime": "2026-05-05 14:00"
+}

@@ -1,0 +1,18 @@
+[
+  {"city": "合肥市", "weekStart": "2026-05-05", "riskLevel": "medium", "riskScore": 42.3, "supplyDemandGap": 178, "warningLabel": "黄色预警"},
+  {"city": "芜湖市", "weekStart": "2026-05-05", "riskLevel": "medium", "riskScore": 35.6, "supplyDemandGap": 130, "warningLabel": "黄色预警"},
+  {"city": "蚌埠市", "weekStart": "2026-05-05", "riskLevel": "high", "riskScore": 52.1, "supplyDemandGap": 295, "warningLabel": "橙色预警"},
+  {"city": "淮南市", "weekStart": "2026-05-05", "riskLevel": "low", "riskScore": 19.8, "supplyDemandGap": -52, "warningLabel": "无预警"},
+  {"city": "马鞍山市", "weekStart": "2026-05-05", "riskLevel": "high", "riskScore": 56.7, "supplyDemandGap": 332, "warningLabel": "橙色预警"},
+  {"city": "淮北市", "weekStart": "2026-05-05", "riskLevel": "medium", "riskScore": 32.4, "supplyDemandGap": 108, "warningLabel": "黄色预警"},
+  {"city": "铜陵市", "weekStart": "2026-05-05", "riskLevel": "low", "riskScore": 16.5, "supplyDemandGap": -90, "warningLabel": "无预警"},
+  {"city": "安庆市", "weekStart": "2026-05-05", "riskLevel": "high", "riskScore": 49.8, "supplyDemandGap": 265, "warningLabel": "橙色预警"},
+  {"city": "黄山市", "weekStart": "2026-05-05", "riskLevel": "low", "riskScore": 12.8, "supplyDemandGap": -135, "warningLabel": "无预警"},
+  {"city": "滁州市", "weekStart": "2026-05-05", "riskLevel": "medium", "riskScore": 38.2, "supplyDemandGap": 152, "warningLabel": "黄色预警"},
+  {"city": "阜阳市", "weekStart": "2026-05-05", "riskLevel": "critical", "riskScore": 74.5, "supplyDemandGap": 510, "warningLabel": "红色预警"},
+  {"city": "宿州市", "weekStart": "2026-05-05", "riskLevel": "medium", "riskScore": 41.0, "supplyDemandGap": 188, "warningLabel": "黄色预警"},
+  {"city": "六安市", "weekStart": "2026-05-05", "riskLevel": "low", "riskScore": 23.5, "supplyDemandGap": -20, "warningLabel": "无预警"},
+  {"city": "亳州市", "weekStart": "2026-05-05", "riskLevel": "high", "riskScore": 48.2, "supplyDemandGap": 242, "warningLabel": "橙色预警"},
+  {"city": "池州市", "weekStart": "2026-05-05", "riskLevel": "low", "riskScore": 18.1, "supplyDemandGap": -75, "warningLabel": "无预警"},
+  {"city": "宣城市", "weekStart": "2026-05-05", "riskLevel": "medium", "riskScore": 30.5, "supplyDemandGap": 85, "warningLabel": "黄色预警"}
+]

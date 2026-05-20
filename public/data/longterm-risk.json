@@ -1,0 +1,18 @@
+[
+  {"city": "合肥市", "forecastYear": 2030, "riskLevel": "medium", "riskScore": 42.5, "supplyDemandGap": 185, "confidence": 82.5},
+  {"city": "芜湖市", "forecastYear": 2030, "riskLevel": "medium", "riskScore": 38.2, "supplyDemandGap": 142, "confidence": 80.1},
+  {"city": "蚌埠市", "forecastYear": 2030, "riskLevel": "high", "riskScore": 55.8, "supplyDemandGap": 310, "confidence": 78.3},
+  {"city": "淮南市", "forecastYear": 2030, "riskLevel": "low", "riskScore": 22.1, "supplyDemandGap": -45, "confidence": 85.2},
+  {"city": "马鞍山市", "forecastYear": 2030, "riskLevel": "high", "riskScore": 58.3, "supplyDemandGap": 345, "confidence": 76.8},
+  {"city": "淮北市", "forecastYear": 2030, "riskLevel": "medium", "riskScore": 35.6, "supplyDemandGap": 120, "confidence": 81.0},
+  {"city": "铜陵市", "forecastYear": 2030, "riskLevel": "low", "riskScore": 18.9, "supplyDemandGap": -82, "confidence": 86.5},
+  {"city": "安庆市", "forecastYear": 2030, "riskLevel": "high", "riskScore": 52.1, "supplyDemandGap": 278, "confidence": 77.9},
+  {"city": "黄山市", "forecastYear": 2030, "riskLevel": "low", "riskScore": 15.2, "supplyDemandGap": -120, "confidence": 88.3},
+  {"city": "滁州市", "forecastYear": 2030, "riskLevel": "medium", "riskScore": 40.7, "supplyDemandGap": 165, "confidence": 79.5},
+  {"city": "阜阳市", "forecastYear": 2030, "riskLevel": "critical", "riskScore": 72.4, "supplyDemandGap": 520, "confidence": 74.2},
+  {"city": "宿州市", "forecastYear": 2030, "riskLevel": "medium", "riskScore": 44.9, "supplyDemandGap": 205, "confidence": 80.8},
+  {"city": "六安市", "forecastYear": 2030, "riskLevel": "low", "riskScore": 25.3, "supplyDemandGap": -15, "confidence": 84.1},
+  {"city": "亳州市", "forecastYear": 2030, "riskLevel": "high", "riskScore": 50.2, "supplyDemandGap": 260, "confidence": 76.5},
+  {"city": "池州市", "forecastYear": 2030, "riskLevel": "low", "riskScore": 20.5, "supplyDemandGap": -68, "confidence": 87.2},
+  {"city": "宣城市", "forecastYear": 2030, "riskLevel": "medium", "riskScore": 33.8, "supplyDemandGap": 98, "confidence": 82.8}
+]

@@ -1,0 +1,8 @@
+[
+  {"factor": "极端天气频率", "weight": 0.78, "description": "极端天气事件发生频率逐年上升，对电力供应稳定性构成显著威胁", "trend": "up"},
+  {"factor": "电源结构脆弱性", "weight": 0.62, "description": "火电占比仍然较高，新能源波动性对电网稳定性影响增大", "trend": "stable"},
+  {"factor": "负荷峰值压力", "weight": 0.85, "description": "夏季制冷负荷和冬季供暖负荷峰值持续增长", "trend": "up"},
+  {"factor": "跨区调度能力", "weight": 0.45, "description": "省间电力调度能力有限，极端天气下互济能力不足", "trend": "down"},
+  {"factor": "备用容量水平", "weight": 0.53, "description": "系统备用容量逐年下降，应对突发故障能力减弱", "trend": "down"},
+  {"factor": "线路重载程度", "weight": 0.71, "description": "部分输电线路在高峰时段负载率超过80%", "trend": "up"}
+]

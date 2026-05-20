@@ -1,0 +1,9 @@
+{
+  "city": "合肥市",
+  "thermal": 5600,
+  "hydro": 800,
+  "wind": 1200,
+  "solar": 900,
+  "nuclear": 0,
+  "total": 8500
+}

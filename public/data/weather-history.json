@@ -1,0 +1,14 @@
+[
+  {"date": "2025-01", "avgTemp": 4.2, "maxTemp": 8.5, "minTemp": 0.5, "precipitation": 32},
+  {"date": "2025-02", "avgTemp": 7.1, "maxTemp": 11.3, "minTemp": 3.2, "precipitation": 45},
+  {"date": "2025-03", "avgTemp": 12.5, "maxTemp": 16.8, "minTemp": 8.0, "precipitation": 72},
+  {"date": "2025-04", "avgTemp": 18.3, "maxTemp": 23.5, "minTemp": 13.1, "precipitation": 85},
+  {"date": "2025-05", "avgTemp": 23.6, "maxTemp": 28.8, "minTemp": 18.4, "precipitation": 98},
+  {"date": "2025-06", "avgTemp": 27.8, "maxTemp": 32.5, "minTemp": 22.9, "precipitation": 165},
+  {"date": "2025-07", "avgTemp": 30.2, "maxTemp": 35.1, "minTemp": 25.5, "precipitation": 182},
+  {"date": "2025-08", "avgTemp": 29.5, "maxTemp": 34.2, "minTemp": 24.8, "precipitation": 155},
+  {"date": "2025-09", "avgTemp": 25.1, "maxTemp": 29.5, "minTemp": 20.3, "precipitation": 92},
+  {"date": "2025-10", "avgTemp": 19.2, "maxTemp": 23.8, "minTemp": 14.5, "precipitation": 58},
+  {"date": "2025-11", "avgTemp": 12.3, "maxTemp": 16.5, "minTemp": 7.8, "precipitation": 42},
+  {"date": "2025-12", "avgTemp": 6.1, "maxTemp": 10.2, "minTemp": 2.1, "precipitation": 28}
+]
