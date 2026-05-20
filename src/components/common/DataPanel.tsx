@@ -7,11 +7,11 @@ interface Props {
   accent?: 'amber' | 'cyan' | 'blue' | 'none';
 }
 
-const accentMap: Record<string, { color: string; bgGlow: string }> = {
-  amber: { color: '#f0a500', bgGlow: 'rgba(240, 165, 0, 0.04)' },
-  cyan:  { color: '#0ef6be', bgGlow: 'rgba(14, 246, 190, 0.03)' },
-  blue:  { color: '#3b82f6', bgGlow: 'rgba(59, 130, 246, 0.03)' },
-  none:  { color: 'transparent', bgGlow: 'transparent' },
+const accentMap: Record<string, { color: string }> = {
+  amber: { color: '#f0a500' },
+  cyan:  { color: '#0ef6be' },
+  blue:  { color: '#3b82f6' },
+  none:  { color: 'transparent' },
 };
 
 const ARM = 16;
@@ -43,7 +43,7 @@ function CornerHUD({ color, top, bottom, left, right, hDir, vDir }: {
 }
 
 export default function DataPanel({ title, children, style, accent = 'none' }: Props) {
-  const { color, bgGlow } = accentMap[accent];
+  const { color } = accentMap[accent];
 
   return (
     <div

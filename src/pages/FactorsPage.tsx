@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'react';
-import type { WeatherData, WeatherHistory, ExtremeWeather, NewEnergyCapacity } from '../types';
-import type { DailyWeather, ExtremeDay } from '../services/weatherApi';
+import type { WeatherData, ExtremeWeather, NewEnergyCapacity } from '../types';
+import type { ExtremeDay } from '../services/weatherApi';
 import DataPanel from '../components/common/DataPanel';
 import AnhuiRiskMap from '../components/map/AnhuiRiskMap';
 import StructureChart from '../components/charts/StructureChart';
@@ -9,7 +9,7 @@ import FactorRadar from '../components/charts/FactorRadar';
 import TenDayWeatherPanel from '../components/charts/TenDayWeatherPanel';
 import { ANHUI_CITIES } from '../utils/constants';
 import {
-  generatePowerStructure, generateLoadStructure, generateWeatherHistory,
+  generatePowerStructure, generateLoadStructure,
   generateFactorAnalysis, getCityFactorScore, getCityFactorLevel,
   generateNewEnergyCapacity,
 } from '../utils/mockData';
@@ -24,19 +24,6 @@ function toWeatherData(city: string, curr: NonNullable<ReturnType<typeof useWeat
     precipitation: curr.precip,
     condition: curr.text,
     updateTime: curr.updateTime,
-  };
-}
-
-function dailyToHistory(city: string, daily: DailyWeather[]): WeatherHistory {
-  return {
-    city,
-    records: daily.map((d) => ({
-      date: d.date.slice(5),
-      avgTemp: Math.round(d.tempAvg * 10) / 10,
-      maxTemp: Math.round(d.tempMax * 10) / 10,
-      minTemp: Math.round(d.tempMin * 10) / 10,
-      precipitation: d.precip,
-    })),
   };
 }
 
@@ -97,11 +84,6 @@ export default function FactorsPage() {
     if (realWeather) return toWeatherData(selectedCity, realWeather);
     return null;
   }, [realWeather, selectedCity]);
-
-  const weatherHistory = useMemo<WeatherHistory>(() => {
-    if (realHistory && realHistory.length > 0) return dailyToHistory(selectedCity, realHistory);
-    return generateWeatherHistory(selectedCity);
-  }, [realHistory, selectedCity]);
 
   const extremeWeather = useMemo<ExtremeWeather[]>(() => {
     const types = ['暴雨', '高温', '寒潮', '台风', '暴雪', '干旱'];

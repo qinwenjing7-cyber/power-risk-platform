@@ -208,8 +208,6 @@ export default function AnhuiRiskMap({ data, onCityClick, height, neutral = fals
               const pieOX = -dirX * (r * 0.15);
               const pieOY = -dirY * (r * 0.15);
 
-              const lineEnd = td - 10; // reach close to the label
-
               const children: any[] = [
                 {
                   type: 'sector',
