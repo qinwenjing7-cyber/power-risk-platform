@@ -1,6 +1,17 @@
 const API_KEY = import.meta.env.VITE_WEATHER_API_KEY || '';
 const CACHE_TTL = 30 * 60 * 1000; // 30 minutes
 
+// Dev: use Vite proxy; Prod: call API directly
+const API_BASE = import.meta.env.DEV ? '/api/weather' : 'https://nq2tuphf9j.re.qweatherapi.com/v7';
+
+async function safeJson<T>(res: Response): Promise<T> {
+  const text = await res.text();
+  if (text.startsWith('<!')) {
+    throw new Error('API unavailable — got HTML response');
+  }
+  return JSON.parse(text) as T;
+}
+
 interface CacheEntry<T> {
   data: T;
   timestamp: number;
@@ -128,10 +139,10 @@ export async function fetchCurrentWeather(
     if (cached) return cached;
   }
 
-  const url = `/api/weather/weather/now?location=${encodeURIComponent(cityId(city))}&key=${API_KEY}`;
+  const url = `${API_BASE}/weather/now?location=${encodeURIComponent(cityId(city))}&key=${API_KEY}`;
   const res = await fetch(url);
   if (!res.ok) throw new Error(`Weather API error: ${res.status}`);
-  const json: HFNowResponse = await res.json();
+  const json: HFNowResponse = await safeJson(res);
   if (json.code !== '200') throw new Error(`Weather API code: ${json.code}`);
 
   const data: CurrentWeather = {
@@ -162,13 +173,13 @@ export async function fetchHistoricalDaily(
     if (cached) return cached;
   }
 
-  const url = `/api/weather/historical/weather?location=${encodeURIComponent(cityId(city))}&date=${date}&key=${API_KEY}`;
+  const url = `${API_BASE}/historical/weather?location=${encodeURIComponent(cityId(city))}&date=${date}&key=${API_KEY}`;
   const res = await fetch(url);
   if (!res.ok) {
     console.error(`[weatherApi] Historical fetch failed: ${res.status} for ${city} ${date}`);
     throw new Error(`Historical API error: ${res.status}`);
   }
-  const json: HFHistoryResponse = await res.json();
+  const json: HFHistoryResponse = await safeJson(res);
   if (json.code !== '200') {
     console.error(`[weatherApi] Historical API code: ${json.code} for ${city} ${date}`);
     throw new Error(`Historical API code: ${json.code}`);
