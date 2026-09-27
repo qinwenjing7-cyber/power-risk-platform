@@ -12,10 +12,23 @@ dist
 dist-ssr
 *.local
 
+# Vite 依赖缓存 (构建产物, 不需要提交)
+.vite
+
 # Environment variables
 .env
 .env.local
 .env.*.local
+
+# 和风天气私钥与凭据 —— 绝不提交!!
+*.pem
+*.key
+model/config/*.pem
+model/config/qweather_private.pem
+
+# Python 缓存 (字节码, 不需要提交)
+__pycache__/
+*.pyc
 
 # Editor directories and files
 .vscode/*

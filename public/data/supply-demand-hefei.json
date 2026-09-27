@@ -1,0 +1,1487 @@
+{
+  "city": "合肥",
+  "generatedAt": "2026-08-28T13:25:03",
+  "capacity": {
+    "pv": 4151.4,
+    "wind": 3131.6,
+    "thermal": 4000.0
+  },
+  "days": [
+    {
+      "date": "2026-08-25",
+      "source": "past",
+      "hours": [
+        {
+          "hour": 0,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 1980.0,
+          "load": 5029.3,
+          "supply": 5111.6,
+          "gap": 82.3,
+          "source": "placeholder"
+        },
+        {
+          "hour": 1,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 1800.0,
+          "load": 5030.9,
+          "supply": 4931.6,
+          "gap": -99.3,
+          "source": "placeholder"
+        },
+        {
+          "hour": 2,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 1728.0,
+          "load": 5032.6,
+          "supply": 4859.6,
+          "gap": -173.0,
+          "source": "placeholder"
+        },
+        {
+          "hour": 3,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 1728.0,
+          "load": 5027.6,
+          "supply": 4859.6,
+          "gap": -168.0,
+          "source": "placeholder"
+        },
+        {
+          "hour": 4,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 1800.0,
+          "load": 5019.2,
+          "supply": 4931.6,
+          "gap": -87.6,
+          "source": "placeholder"
+        },
+        {
+          "hour": 5,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 1980.0,
+          "load": 5027.6,
+          "supply": 5111.6,
+          "gap": 84.0,
+          "source": "placeholder"
+        },
+        {
+          "hour": 6,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 2232.0,
+          "load": 5020.9,
+          "supply": 5363.6,
+          "gap": 342.7,
+          "source": "placeholder"
+        },
+        {
+          "hour": 7,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 2592.0,
+          "load": 5014.2,
+          "supply": 5723.6,
+          "gap": 709.4,
+          "source": "placeholder"
+        },
+        {
+          "hour": 8,
+          "solar": 0.0,
+          "wind": 0.0,
+          "thermal": 3060.0,
+          "load": 5012.5,
+          "supply": 3060.0,
+          "gap": -1952.5,
+          "source": "placeholder"
+        },
+        {
+          "hour": 9,
+          "solar": 0.0,
+          "wind": 0.0,
+          "thermal": 3168.0,
+          "load": 5025.9,
+          "supply": 3168.0,
+          "gap": -1857.9,
+          "source": "placeholder"
+        },
+        {
+          "hour": 10,
+          "solar": 0.0,
+          "wind": 0.0,
+          "thermal": 3096.0,
+          "load": 5019.2,
+          "supply": 3096.0,
+          "gap": -1923.2,
+          "source": "placeholder"
+        },
+        {
+          "hour": 11,
+          "solar": 0.0,
+          "wind": 0.0,
+          "thermal": 2880.0,
+          "load": 5017.5,
+          "supply": 2880.0,
+          "gap": -2137.5,
+          "source": "placeholder"
+        },
+        {
+          "hour": 12,
+          "solar": 0.0,
+          "wind": 0.0,
+          "thermal": 2700.0,
+          "load": 5032.6,
+          "supply": 2700.0,
+          "gap": -2332.6,
+          "source": "placeholder"
+        },
+        {
+          "hour": 13,
+          "solar": 0.0,
+          "wind": 0.0,
+          "thermal": 2592.0,
+          "load": 5029.3,
+          "supply": 2592.0,
+          "gap": -2437.3,
+          "source": "placeholder"
+        },
+        {
+          "hour": 14,
+          "solar": 0.0,
+          "wind": 0.0,
+          "thermal": 2520.0,
+          "load": 5025.9,
+          "supply": 2520.0,
+          "gap": -2505.9,
+          "source": "placeholder"
+        },
+        {
+          "hour": 15,
+          "solar": 0.0,
+          "wind": 0.0,
+          "thermal": 2592.0,
+          "load": 5029.3,
+          "supply": 2592.0,
+          "gap": -2437.3,
+          "source": "placeholder"
+        },
+        {
+          "hour": 16,
+          "solar": 0.0,
+          "wind": 0.0,
+          "thermal": 2808.0,
+          "load": 5032.6,
+          "supply": 2808.0,
+          "gap": -2224.6,
+          "source": "placeholder"
+        },
+        {
+          "hour": 17,
+          "solar": 0.0,
+          "wind": 0.0,
+          "thermal": 3060.0,
+          "load": 5041.0,
+          "supply": 3060.0,
+          "gap": -1981.0,
+          "source": "placeholder"
+        },
+        {
+          "hour": 18,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 3312.0,
+          "load": 5525.9,
+          "supply": 6443.6,
+          "gap": 917.7,
+          "source": "placeholder"
+        },
+        {
+          "hour": 19,
+          "solar": 0.0,
+          "wind": 2454.8,
+          "thermal": 3420.0,
+          "load": 5713.2,
+          "supply": 5874.8,
+          "gap": 161.6,
+          "source": "placeholder"
+        },
+        {
+          "hour": 20,
+          "solar": 0.0,
+          "wind": 2454.8,
+          "thermal": 3240.0,
+          "load": 5169.5,
+          "supply": 5694.8,
+          "gap": 525.3,
+          "source": "placeholder"
+        },
+        {
+          "hour": 21,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 3060.0,
+          "load": 5032.6,
+          "supply": 6191.6,
+          "gap": 1159.0,
+          "source": "placeholder"
+        },
+        {
+          "hour": 22,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 2808.0,
+          "load": 5027.6,
+          "supply": 5939.6,
+          "gap": 912.0,
+          "source": "placeholder"
+        },
+        {
+          "hour": 23,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 2340.0,
+          "load": 5034.3,
+          "supply": 5471.6,
+          "gap": 437.3,
+          "source": "placeholder"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "source": "past",
+      "hours": [
+        {
+          "hour": 0,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 1980.0,
+          "load": 5037.6,
+          "supply": 5111.6,
+          "gap": 74.0,
+          "source": "placeholder"
+        },
+        {
+          "hour": 1,
+          "solar": 0.0,
+          "wind": 2454.8,
+          "thermal": 1800.0,
+          "load": 5034.3,
+          "supply": 4254.8,
+          "gap": -779.5,
+          "source": "placeholder"
+        },
+        {
+          "hour": 2,
+          "solar": 0.0,
+          "wind": 1013.1,
+          "thermal": 1728.0,
+          "load": 5034.3,
+          "supply": 2741.1,
+          "gap": -2293.2,
+          "source": "placeholder"
+        },
+        {
+          "hour": 3,
+          "solar": 0.0,
+          "wind": 1881.8,
+          "thermal": 1728.0,
+          "load": 5030.9,
+          "supply": 3609.8,
+          "gap": -1421.1,
+          "source": "placeholder"
+        },
+        {
+          "hour": 4,
+          "solar": 0.0,
+          "wind": 2454.8,
+          "thermal": 1800.0,
+          "load": 5024.2,
+          "supply": 4254.8,
+          "gap": -769.5,
+          "source": "placeholder"
+        },
+        {
+          "hour": 5,
+          "solar": 0.0,
+          "wind": 1881.8,
+          "thermal": 1980.0,
+          "load": 5025.9,
+          "supply": 3861.8,
+          "gap": -1164.1,
+          "source": "placeholder"
+        },
+        {
+          "hour": 6,
+          "solar": 0.0,
+          "wind": 1881.8,
+          "thermal": 2232.0,
+          "load": 5025.9,
+          "supply": 4113.8,
+          "gap": -912.1,
+          "source": "placeholder"
+        },
+        {
+          "hour": 7,
+          "solar": 0.0,
+          "wind": 1881.8,
+          "thermal": 2592.0,
+          "load": 5030.9,
+          "supply": 4473.8,
+          "gap": -557.1,
+          "source": "placeholder"
+        },
+        {
+          "hour": 8,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 3060.0,
+          "load": 5041.0,
+          "supply": 6191.6,
+          "gap": 1150.6,
+          "source": "placeholder"
+        },
+        {
+          "hour": 9,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 3168.0,
+          "load": 5037.6,
+          "supply": 6299.6,
+          "gap": 1262.0,
+          "source": "placeholder"
+        },
+        {
+          "hour": 10,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 3096.0,
+          "load": 5041.0,
+          "supply": 6227.6,
+          "gap": 1186.6,
+          "source": "placeholder"
+        },
+        {
+          "hour": 11,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 2880.0,
+          "load": 5039.3,
+          "supply": 6011.6,
+          "gap": 972.3,
+          "source": "placeholder"
+        },
+        {
+          "hour": 12,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 2700.0,
+          "load": 6314.0,
+          "supply": 5831.6,
+          "gap": -482.4,
+          "source": "placeholder"
+        },
+        {
+          "hour": 13,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 2592.0,
+          "load": 6314.0,
+          "supply": 5723.6,
+          "gap": -590.4,
+          "source": "placeholder"
+        },
+        {
+          "hour": 14,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 2520.0,
+          "load": 7712.0,
+          "supply": 5651.6,
+          "gap": -2060.4,
+          "source": "placeholder"
+        },
+        {
+          "hour": 15,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 2592.0,
+          "load": 6749.3,
+          "supply": 5723.6,
+          "gap": -1025.7,
+          "source": "placeholder"
+        },
+        {
+          "hour": 16,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 2808.0,
+          "load": 6107.0,
+          "supply": 5939.6,
+          "gap": -167.4,
+          "source": "placeholder"
+        },
+        {
+          "hour": 17,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 3060.0,
+          "load": 6749.3,
+          "supply": 6191.6,
+          "gap": -557.7,
+          "source": "placeholder"
+        },
+        {
+          "hour": 18,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 3312.0,
+          "load": 6314.0,
+          "supply": 6443.6,
+          "gap": 129.6,
+          "source": "placeholder"
+        },
+        {
+          "hour": 19,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 3420.0,
+          "load": 5525.9,
+          "supply": 6551.6,
+          "gap": 1025.7,
+          "source": "placeholder"
+        },
+        {
+          "hour": 20,
+          "solar": 0.0,
+          "wind": 1404.2,
+          "thermal": 3240.0,
+          "load": 5525.9,
+          "supply": 4644.2,
+          "gap": -881.7,
+          "source": "placeholder"
+        },
+        {
+          "hour": 21,
+          "solar": 0.0,
+          "wind": 456.0,
+          "thermal": 3060.0,
+          "load": 5000.0,
+          "supply": 3516.0,
+          "gap": -1484.0,
+          "source": "placeholder"
+        },
+        {
+          "hour": 22,
+          "solar": 0.0,
+          "wind": 1013.1,
+          "thermal": 2808.0,
+          "load": 5039.3,
+          "supply": 3821.1,
+          "gap": -1218.2,
+          "source": "placeholder"
+        },
+        {
+          "hour": 23,
+          "solar": 0.0,
+          "wind": 1881.8,
+          "thermal": 2340.0,
+          "load": 5036.0,
+          "supply": 4221.8,
+          "gap": -814.1,
+          "source": "placeholder"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "source": "past",
+      "hours": [
+        {
+          "hour": 0,
+          "solar": 0.0,
+          "wind": 1013.1,
+          "thermal": 1980.0,
+          "load": 5034.3,
+          "supply": 2993.1,
+          "gap": -2041.2,
+          "source": "placeholder"
+        },
+        {
+          "hour": 1,
+          "solar": 0.0,
+          "wind": 699.9,
+          "thermal": 1800.0,
+          "load": 5036.0,
+          "supply": 2499.9,
+          "gap": -2536.0,
+          "source": "placeholder"
+        },
+        {
+          "hour": 2,
+          "solar": 0.0,
+          "wind": 141.4,
+          "thermal": 1728.0,
+          "load": 5041.0,
+          "supply": 1869.4,
+          "gap": -3171.6,
+          "source": "placeholder"
+        },
+        {
+          "hour": 3,
+          "solar": 0.0,
+          "wind": 272.8,
+          "thermal": 1728.0,
+          "load": 5034.3,
+          "supply": 2000.8,
+          "gap": -3033.5,
+          "source": "placeholder"
+        },
+        {
+          "hour": 4,
+          "solar": 0.0,
+          "wind": 53.4,
+          "thermal": 1800.0,
+          "load": 5037.6,
+          "supply": 1853.4,
+          "gap": -3184.2,
+          "source": "placeholder"
+        },
+        {
+          "hour": 5,
+          "solar": 0.0,
+          "wind": 699.9,
+          "thermal": 1980.0,
+          "load": 5030.9,
+          "supply": 2679.9,
+          "gap": -2351.0,
+          "source": "placeholder"
+        },
+        {
+          "hour": 6,
+          "solar": 0.0,
+          "wind": 456.0,
+          "thermal": 2232.0,
+          "load": 5032.6,
+          "supply": 2688.0,
+          "gap": -2344.6,
+          "source": "placeholder"
+        },
+        {
+          "hour": 7,
+          "solar": 0.0,
+          "wind": 699.9,
+          "thermal": 2592.0,
+          "load": 5036.0,
+          "supply": 3291.9,
+          "gap": -1744.0,
+          "source": "placeholder"
+        },
+        {
+          "hour": 8,
+          "solar": 0.0,
+          "wind": 1404.2,
+          "thermal": 3060.0,
+          "load": 5000.0,
+          "supply": 4464.2,
+          "gap": -535.8,
+          "source": "placeholder"
+        },
+        {
+          "hour": 9,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 3168.0,
+          "load": 5000.0,
+          "supply": 6299.6,
+          "gap": 1299.6,
+          "source": "placeholder"
+        },
+        {
+          "hour": 10,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 3096.0,
+          "load": 6749.3,
+          "supply": 6227.6,
+          "gap": -521.7,
+          "source": "placeholder"
+        },
+        {
+          "hour": 11,
+          "solar": 0.0,
+          "wind": 2454.8,
+          "thermal": 2880.0,
+          "load": 7712.0,
+          "supply": 5334.8,
+          "gap": -2377.2,
+          "source": "placeholder"
+        },
+        {
+          "hour": 12,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 2700.0,
+          "load": 6314.0,
+          "supply": 5831.6,
+          "gap": -482.4,
+          "source": "placeholder"
+        },
+        {
+          "hour": 13,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 2592.0,
+          "load": 5344.7,
+          "supply": 5723.6,
+          "gap": 378.9,
+          "source": "placeholder"
+        },
+        {
+          "hour": 14,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 2520.0,
+          "load": 6314.0,
+          "supply": 5651.6,
+          "gap": -662.4,
+          "source": "placeholder"
+        },
+        {
+          "hour": 15,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 2592.0,
+          "load": 6107.0,
+          "supply": 5723.6,
+          "gap": -383.4,
+          "source": "placeholder"
+        },
+        {
+          "hour": 16,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 2808.0,
+          "load": 6107.0,
+          "supply": 5939.6,
+          "gap": -167.4,
+          "source": "placeholder"
+        },
+        {
+          "hour": 17,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 3060.0,
+          "load": 5000.0,
+          "supply": 6191.6,
+          "gap": 1191.6,
+          "source": "placeholder"
+        },
+        {
+          "hour": 18,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 3312.0,
+          "load": 5037.6,
+          "supply": 6443.6,
+          "gap": 1406.0,
+          "source": "placeholder"
+        },
+        {
+          "hour": 19,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 3420.0,
+          "load": 5037.6,
+          "supply": 6551.6,
+          "gap": 1514.0,
+          "source": "placeholder"
+        },
+        {
+          "hour": 20,
+          "solar": 0.0,
+          "wind": 2454.8,
+          "thermal": 3240.0,
+          "load": 5039.3,
+          "supply": 5694.8,
+          "gap": 655.4,
+          "source": "placeholder"
+        },
+        {
+          "hour": 21,
+          "solar": 0.0,
+          "wind": 1404.2,
+          "thermal": 3060.0,
+          "load": 5000.0,
+          "supply": 4464.2,
+          "gap": -535.8,
+          "source": "placeholder"
+        },
+        {
+          "hour": 22,
+          "solar": 0.0,
+          "wind": 1881.8,
+          "thermal": 2808.0,
+          "load": 5036.0,
+          "supply": 4689.8,
+          "gap": -346.1,
+          "source": "placeholder"
+        },
+        {
+          "hour": 23,
+          "solar": 0.0,
+          "wind": 699.9,
+          "thermal": 2340.0,
+          "load": 5036.0,
+          "supply": 3039.9,
+          "gap": -1996.0,
+          "source": "placeholder"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "source": "real",
+      "hours": [
+        {
+          "hour": 0,
+          "solar": 0,
+          "wind": 0,
+          "thermal": 0,
+          "load": 0,
+          "supply": 0,
+          "gap": 0,
+          "source": "placeholder"
+        },
+        {
+          "hour": 1,
+          "solar": 0,
+          "wind": 0,
+          "thermal": 0,
+          "load": 0,
+          "supply": 0,
+          "gap": 0,
+          "source": "placeholder"
+        },
+        {
+          "hour": 2,
+          "solar": 0,
+          "wind": 0,
+          "thermal": 0,
+          "load": 0,
+          "supply": 0,
+          "gap": 0,
+          "source": "placeholder"
+        },
+        {
+          "hour": 3,
+          "solar": 0,
+          "wind": 0,
+          "thermal": 0,
+          "load": 0,
+          "supply": 0,
+          "gap": 0,
+          "source": "placeholder"
+        },
+        {
+          "hour": 4,
+          "solar": 0,
+          "wind": 0,
+          "thermal": 0,
+          "load": 0,
+          "supply": 0,
+          "gap": 0,
+          "source": "placeholder"
+        },
+        {
+          "hour": 5,
+          "solar": 0,
+          "wind": 0,
+          "thermal": 0,
+          "load": 0,
+          "supply": 0,
+          "gap": 0,
+          "source": "placeholder"
+        },
+        {
+          "hour": 6,
+          "solar": 0,
+          "wind": 0,
+          "thermal": 0,
+          "load": 0,
+          "supply": 0,
+          "gap": 0,
+          "source": "placeholder"
+        },
+        {
+          "hour": 7,
+          "solar": 0,
+          "wind": 0,
+          "thermal": 0,
+          "load": 0,
+          "supply": 0,
+          "gap": 0,
+          "source": "placeholder"
+        },
+        {
+          "hour": 8,
+          "solar": 0,
+          "wind": 0,
+          "thermal": 0,
+          "load": 0,
+          "supply": 0,
+          "gap": 0,
+          "source": "placeholder"
+        },
+        {
+          "hour": 9,
+          "solar": 0,
+          "wind": 0,
+          "thermal": 0,
+          "load": 0,
+          "supply": 0,
+          "gap": 0,
+          "source": "placeholder"
+        },
+        {
+          "hour": 10,
+          "solar": 0,
+          "wind": 0,
+          "thermal": 0,
+          "load": 0,
+          "supply": 0,
+          "gap": 0,
+          "source": "placeholder"
+        },
+        {
+          "hour": 11,
+          "solar": 0,
+          "wind": 0,
+          "thermal": 0,
+          "load": 0,
+          "supply": 0,
+          "gap": 0,
+          "source": "placeholder"
+        },
+        {
+          "hour": 12,
+          "solar": 0,
+          "wind": 0,
+          "thermal": 0,
+          "load": 0,
+          "supply": 0,
+          "gap": 0,
+          "source": "placeholder"
+        },
+        {
+          "hour": 13,
+          "solar": 0,
+          "wind": 0,
+          "thermal": 0,
+          "load": 0,
+          "supply": 0,
+          "gap": 0,
+          "source": "placeholder"
+        },
+        {
+          "hour": 14,
+          "solar": 2099.1,
+          "wind": 3131.6,
+          "thermal": 2520.0,
+          "load": 5032.6,
+          "supply": 7750.7,
+          "gap": 2718.1,
+          "source": "real"
+        },
+        {
+          "hour": 15,
+          "solar": 1676.9,
+          "wind": 3131.6,
+          "thermal": 2592.0,
+          "load": 5032.6,
+          "supply": 7400.5,
+          "gap": 2367.9,
+          "source": "real"
+        },
+        {
+          "hour": 16,
+          "solar": 1204.4,
+          "wind": 3131.6,
+          "thermal": 2808.0,
+          "load": 5032.6,
+          "supply": 7144.0,
+          "gap": 2111.4,
+          "source": "real"
+        },
+        {
+          "hour": 17,
+          "solar": 691.3,
+          "wind": 3131.6,
+          "thermal": 3060.0,
+          "load": 5032.6,
+          "supply": 6882.9,
+          "gap": 1850.3,
+          "source": "real"
+        },
+        {
+          "hour": 18,
+          "solar": 209.0,
+          "wind": 3131.6,
+          "thermal": 3312.0,
+          "load": 5034.3,
+          "supply": 6652.6,
+          "gap": 1618.3,
+          "source": "real"
+        },
+        {
+          "hour": 19,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 3420.0,
+          "load": 5029.3,
+          "supply": 6551.6,
+          "gap": 1522.3,
+          "source": "real"
+        },
+        {
+          "hour": 20,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 3240.0,
+          "load": 5029.3,
+          "supply": 6371.6,
+          "gap": 1342.3,
+          "source": "real"
+        },
+        {
+          "hour": 21,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 3060.0,
+          "load": 5024.2,
+          "supply": 6191.6,
+          "gap": 1167.4,
+          "source": "real"
+        },
+        {
+          "hour": 22,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 2808.0,
+          "load": 5024.2,
+          "supply": 5939.6,
+          "gap": 915.4,
+          "source": "real"
+        },
+        {
+          "hour": 23,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 2340.0,
+          "load": 5024.2,
+          "supply": 5471.6,
+          "gap": 447.4,
+          "source": "real"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "source": "real",
+      "hours": [
+        {
+          "hour": 0,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 1980.0,
+          "load": 5019.2,
+          "supply": 5111.6,
+          "gap": 92.4,
+          "source": "real"
+        },
+        {
+          "hour": 1,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 1800.0,
+          "load": 5019.2,
+          "supply": 4931.6,
+          "gap": -87.6,
+          "source": "real"
+        },
+        {
+          "hour": 2,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 1728.0,
+          "load": 5019.2,
+          "supply": 4859.6,
+          "gap": -159.6,
+          "source": "real"
+        },
+        {
+          "hour": 3,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 1728.0,
+          "load": 5014.2,
+          "supply": 4859.6,
+          "gap": -154.6,
+          "source": "real"
+        },
+        {
+          "hour": 4,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 1800.0,
+          "load": 5014.2,
+          "supply": 4931.6,
+          "gap": -82.6,
+          "source": "real"
+        },
+        {
+          "hour": 5,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 1980.0,
+          "load": 5014.2,
+          "supply": 5111.6,
+          "gap": 97.4,
+          "source": "real"
+        },
+        {
+          "hour": 6,
+          "solar": 45.1,
+          "wind": 3131.6,
+          "thermal": 2232.0,
+          "load": 5019.2,
+          "supply": 5408.7,
+          "gap": 389.5,
+          "source": "real"
+        },
+        {
+          "hour": 7,
+          "solar": 452.5,
+          "wind": 3131.6,
+          "thermal": 2592.0,
+          "load": 5019.2,
+          "supply": 6176.1,
+          "gap": 1156.9,
+          "source": "real"
+        },
+        {
+          "hour": 8,
+          "solar": 937.0,
+          "wind": 3131.6,
+          "thermal": 3060.0,
+          "load": 5017.5,
+          "supply": 7128.6,
+          "gap": 2111.1,
+          "source": "real"
+        },
+        {
+          "hour": 9,
+          "solar": 1453.7,
+          "wind": 3131.6,
+          "thermal": 3168.0,
+          "load": 5017.5,
+          "supply": 7753.3,
+          "gap": 2735.7,
+          "source": "real"
+        },
+        {
+          "hour": 10,
+          "solar": 1827.6,
+          "wind": 3131.6,
+          "thermal": 3096.0,
+          "load": 5022.6,
+          "supply": 8055.2,
+          "gap": 3032.6,
+          "source": "real"
+        },
+        {
+          "hour": 11,
+          "solar": 2034.6,
+          "wind": 3131.6,
+          "thermal": 2880.0,
+          "load": 5032.6,
+          "supply": 8046.2,
+          "gap": 3013.6,
+          "source": "real"
+        },
+        {
+          "hour": 12,
+          "solar": 2164.3,
+          "wind": 3131.6,
+          "thermal": 2700.0,
+          "load": 5032.6,
+          "supply": 7995.9,
+          "gap": 2963.3,
+          "source": "real"
+        },
+        {
+          "hour": 13,
+          "solar": 2181.3,
+          "wind": 3131.6,
+          "thermal": 2592.0,
+          "load": 5032.6,
+          "supply": 7904.9,
+          "gap": 2872.2,
+          "source": "real"
+        },
+        {
+          "hour": 14,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 2520.0,
+          "load": 5032.6,
+          "supply": 5651.6,
+          "gap": 619.0,
+          "source": "real"
+        },
+        {
+          "hour": 15,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 2592.0,
+          "load": 5032.6,
+          "supply": 5723.6,
+          "gap": 691.0,
+          "source": "real"
+        },
+        {
+          "hour": 16,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 2808.0,
+          "load": 5032.6,
+          "supply": 5939.6,
+          "gap": 907.0,
+          "source": "real"
+        },
+        {
+          "hour": 17,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 3060.0,
+          "load": 5027.6,
+          "supply": 6191.6,
+          "gap": 1164.0,
+          "source": "real"
+        },
+        {
+          "hour": 18,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 3312.0,
+          "load": 5027.6,
+          "supply": 6443.6,
+          "gap": 1416.0,
+          "source": "real"
+        },
+        {
+          "hour": 19,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 3420.0,
+          "load": 5017.5,
+          "supply": 6551.6,
+          "gap": 1534.1,
+          "source": "real"
+        },
+        {
+          "hour": 20,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 3240.0,
+          "load": 5017.5,
+          "supply": 6371.6,
+          "gap": 1354.1,
+          "source": "real"
+        },
+        {
+          "hour": 21,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 3060.0,
+          "load": 5029.3,
+          "supply": 6191.6,
+          "gap": 1162.3,
+          "source": "real"
+        },
+        {
+          "hour": 22,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 2808.0,
+          "load": 5029.3,
+          "supply": 5939.6,
+          "gap": 910.3,
+          "source": "real"
+        },
+        {
+          "hour": 23,
+          "solar": 0.0,
+          "wind": 456.0,
+          "thermal": 2340.0,
+          "load": 5525.9,
+          "supply": 2796.0,
+          "gap": -2729.8,
+          "source": "real"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-30",
+      "source": "real",
+      "hours": [
+        {
+          "hour": 0,
+          "solar": 0.0,
+          "wind": 456.0,
+          "thermal": 1980.0,
+          "load": 5000.0,
+          "supply": 2436.0,
+          "gap": -2564.0,
+          "source": "real"
+        },
+        {
+          "hour": 1,
+          "solar": 0.0,
+          "wind": 456.0,
+          "thermal": 1800.0,
+          "load": 5000.0,
+          "supply": 2256.0,
+          "gap": -2744.0,
+          "source": "real"
+        },
+        {
+          "hour": 2,
+          "solar": 0.0,
+          "wind": 456.0,
+          "thermal": 1728.0,
+          "load": 5000.0,
+          "supply": 2184.0,
+          "gap": -2816.0,
+          "source": "real"
+        },
+        {
+          "hour": 3,
+          "solar": 0.0,
+          "wind": 456.0,
+          "thermal": 1728.0,
+          "load": 5032.6,
+          "supply": 2184.0,
+          "gap": -2848.6,
+          "source": "real"
+        },
+        {
+          "hour": 4,
+          "solar": 0.0,
+          "wind": 456.0,
+          "thermal": 1800.0,
+          "load": 5032.6,
+          "supply": 2256.0,
+          "gap": -2776.6,
+          "source": "real"
+        },
+        {
+          "hour": 5,
+          "solar": 0.0,
+          "wind": 1404.2,
+          "thermal": 1980.0,
+          "load": 5032.6,
+          "supply": 3384.2,
+          "gap": -1648.4,
+          "source": "real"
+        },
+        {
+          "hour": 6,
+          "solar": 0.0,
+          "wind": 1404.2,
+          "thermal": 2232.0,
+          "load": 5032.6,
+          "supply": 3636.2,
+          "gap": -1396.4,
+          "source": "real"
+        },
+        {
+          "hour": 7,
+          "solar": 0.0,
+          "wind": 1404.2,
+          "thermal": 2592.0,
+          "load": 5037.6,
+          "supply": 3996.2,
+          "gap": -1041.5,
+          "source": "real"
+        },
+        {
+          "hour": 8,
+          "solar": 0.0,
+          "wind": 1404.2,
+          "thermal": 3060.0,
+          "load": 5037.6,
+          "supply": 4464.2,
+          "gap": -573.5,
+          "source": "real"
+        },
+        {
+          "hour": 9,
+          "solar": 0.0,
+          "wind": 1404.2,
+          "thermal": 3168.0,
+          "load": 5000.0,
+          "supply": 4572.2,
+          "gap": -427.8,
+          "source": "real"
+        },
+        {
+          "hour": 10,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 3096.0,
+          "load": 5017.5,
+          "supply": 6227.6,
+          "gap": 1210.1,
+          "source": "real"
+        },
+        {
+          "hour": 11,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 2880.0,
+          "load": 5017.5,
+          "supply": 6011.6,
+          "gap": 994.1,
+          "source": "real"
+        },
+        {
+          "hour": 12,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 2700.0,
+          "load": 5017.5,
+          "supply": 5831.6,
+          "gap": 814.1,
+          "source": "real"
+        },
+        {
+          "hour": 13,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 2592.0,
+          "load": 5017.5,
+          "supply": 5723.6,
+          "gap": 706.1,
+          "source": "real"
+        },
+        {
+          "hour": 14,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 2520.0,
+          "load": 5017.5,
+          "supply": 5651.6,
+          "gap": 634.1,
+          "source": "real"
+        },
+        {
+          "hour": 15,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 2592.0,
+          "load": 5017.5,
+          "supply": 5723.6,
+          "gap": 706.1,
+          "source": "real"
+        },
+        {
+          "hour": 16,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 2808.0,
+          "load": 5017.5,
+          "supply": 5939.6,
+          "gap": 922.1,
+          "source": "real"
+        },
+        {
+          "hour": 17,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 3060.0,
+          "load": 5017.5,
+          "supply": 6191.6,
+          "gap": 1174.1,
+          "source": "real"
+        },
+        {
+          "hour": 18,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 3312.0,
+          "load": 5012.5,
+          "supply": 6443.6,
+          "gap": 1431.1,
+          "source": "real"
+        },
+        {
+          "hour": 19,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 3420.0,
+          "load": 5007.5,
+          "supply": 6551.6,
+          "gap": 1544.1,
+          "source": "real"
+        },
+        {
+          "hour": 20,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 3240.0,
+          "load": 5002.5,
+          "supply": 6371.6,
+          "gap": 1369.1,
+          "source": "real"
+        },
+        {
+          "hour": 21,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 3060.0,
+          "load": 5002.5,
+          "supply": 6191.6,
+          "gap": 1189.1,
+          "source": "real"
+        },
+        {
+          "hour": 22,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 2808.0,
+          "load": 5002.5,
+          "supply": 5939.6,
+          "gap": 937.1,
+          "source": "real"
+        },
+        {
+          "hour": 23,
+          "solar": 0.0,
+          "wind": 3131.6,
+          "thermal": 2340.0,
+          "load": 5002.5,
+          "supply": 5471.6,
+          "gap": 469.1,
+          "source": "real"
+        }
+      ]
+    }
+  ]
+}

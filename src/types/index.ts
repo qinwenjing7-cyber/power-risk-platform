@@ -83,6 +83,41 @@ export interface ShortTermRisk {
   warningLabel: string;
 }
 
+export interface SupplyDemandHour {
+  hour: number;
+  solar: number;
+  wind: number;
+  thermal: number;
+  load: number;
+  supply: number;
+  gap: number;
+  source?: string;
+}
+
+export interface SupplyDemandDay {
+  date: string;
+  source: 'past' | 'real';
+  hours: SupplyDemandHour[];
+}
+
+export interface SupplyDemandData {
+  city: string;
+  generatedAt: string;
+  capacity: { pv: number; wind: number; thermal: number };
+  days: SupplyDemandDay[];
+}
+
+export interface SupplyDemandCity {
+  city: string;
+  capacity: { pv: number; wind: number; thermal: number };
+  days: SupplyDemandDay[];
+}
+
+export interface SupplyDemandAllData {
+  generatedAt: string;
+  cities: SupplyDemandCity[];
+}
+
 export interface AnhuiGeoJSON {
   type: string;
   features: {

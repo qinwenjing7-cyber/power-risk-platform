@@ -1,15 +1,20 @@
 import { useState, useMemo } from 'react';
+import dayjs from 'dayjs';
 import DataPanel from '../components/common/DataPanel';
 import AnhuiRiskMap from '../components/map/AnhuiRiskMap';
 import MapLegend from '../components/map/MapLegend';
-import StatCard from '../components/common/StatCard';
+import SupplyDemandPanel from '../components/panels/SupplyDemandPanel';
 import type { ShortTermRisk, RiskLevel } from '../types';
 import { RISK_COLORS, RISK_LABELS } from '../types';
 import { ANHUI_CITIES } from '../utils/constants';
 
 function generateMockShortTerm(): ShortTermRisk[] {
   const result: ShortTermRisk[] = [];
-  const weeks = ['2026-05-05', '2026-05-12', '2026-05-19', '2026-05-26'];
+  // Dynamic: current week's Monday, then +7 days each — 4 weeks total.
+  // dayjs .day() is locale-independent (0=Sun..6=Sat), so Monday is computed deterministically.
+  const today = dayjs();
+  const monday = today.subtract((today.day() + 6) % 7, 'day');
+  const weeks = Array.from({ length: 4 }, (_, i) => monday.add(i * 7, 'day').format('YYYY-MM-DD'));
   ANHUI_CITIES.forEach((city) => {
     weeks.forEach((weekStart, wi) => {
       const baseScore = 25 + (city.charCodeAt(2) % 40) + wi * 3;
@@ -47,10 +52,6 @@ export default function ShortTermRiskPage() {
       riskLevel: d.riskLevel,
     })),
   [mockData, selectedWeek]);
-
-  const selectedEntry = useMemo(() =>
-    mockData.find((d) => d.city === selectedCity && d.weekStart === selectedWeek),
-  [mockData, selectedCity, selectedWeek]);
 
   const alerts = useMemo(() =>
     mockData
@@ -114,31 +115,7 @@ export default function ShortTermRiskPage() {
         }} />
 
         <div style={{ flex: 1, overflow: 'auto', display: 'flex', flexDirection: 'column', gap: 20, padding: 16 }}>
-          <DataPanel title={`${selectedCity} · 预警详情`} accent="amber">
-            {selectedEntry && (
-              <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
-                <StatCard
-                  label="风险评分"
-                  value={selectedEntry.riskScore.toFixed(1)}
-                  unit="分"
-                  alert={selectedEntry.riskLevel === 'critical' || selectedEntry.riskLevel === 'high'}
-                />
-                <div style={{
-                  textAlign: 'center', padding: '6px 10px',
-                  background: `${RISK_COLORS[selectedEntry.riskLevel]}10`,
-                  border: `1px solid ${RISK_COLORS[selectedEntry.riskLevel]}40`,
-                  color: RISK_COLORS[selectedEntry.riskLevel],
-                  fontSize: 14, fontWeight: 700, letterSpacing: 2,
-                }}>
-                  {selectedEntry.warningLabel}
-                </div>
-                <StatCard label="供需缺口" value={selectedEntry.supplyDemandGap} unit="MW" alert={selectedEntry.supplyDemandGap > 200} />
-                <div style={{ fontSize: 11, color: 'var(--text-dim)', textAlign: 'center' }}>
-                  预警周期: {selectedEntry.weekStart} 起
-                </div>
-              </div>
-            )}
-          </DataPanel>
+          <SupplyDemandPanel cityName={selectedCity} />
 
           <DataPanel title="⚠ 高风险预警列表" accent="amber">
             <div style={{ maxHeight: 200, overflow: 'auto' }}>
