@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T17:15:33",
+  "generatedAt": "2026-09-27T10:02:32",
   "anchorDate": "2026-09-27",
   "cities": [
     {
@@ -1031,7 +1031,7 @@
               "load": 5036.1,
               "supply": 3312.0,
               "gap": -1724.1,
-              "source": "real",
+              "source": "carried",
               "solarSource": "api"
             },
             {
@@ -1295,14 +1295,14 @@
             },
             {
               "hour": 18,
-              "solar": 0.2,
+              "solar": 0.0,
               "wind": 974.6,
               "thermal": 3312.0,
               "load": 5014.4,
-              "supply": 4286.8,
-              "gap": -727.6,
+              "supply": 4286.6,
+              "gap": -727.8,
               "source": "real",
-              "solarSource": "estimated"
+              "solarSource": "api"
             },
             {
               "hour": 19,
@@ -2662,7 +2662,7 @@
               "load": 3780.8,
               "supply": 2484.0,
               "gap": -1296.8,
-              "source": "real",
+              "source": "carried",
               "solarSource": "estimated"
             },
             {
@@ -2670,9 +2670,9 @@
               "solar": 0.0,
               "wind": 0.0,
               "thermal": 2565.0,
-              "load": 3780.8,
+              "load": 3773.3,
               "supply": 2565.0,
-              "gap": -1215.8,
+              "gap": -1208.3,
               "source": "real",
               "solarSource": "estimated"
             },
@@ -2681,9 +2681,9 @@
               "solar": 0.0,
               "wind": 0.0,
               "thermal": 2430.0,
-              "load": 3780.8,
+              "load": 3773.3,
               "supply": 2430.0,
-              "gap": -1350.8,
+              "gap": -1343.3,
               "source": "real",
               "solarSource": "estimated"
             },
@@ -2692,9 +2692,9 @@
               "solar": 0.0,
               "wind": 0.0,
               "thermal": 2295.0,
-              "load": 3777.0,
+              "load": 3773.3,
               "supply": 2295.0,
-              "gap": -1482.0,
+              "gap": -1478.3,
               "source": "real",
               "solarSource": "estimated"
             },
@@ -2703,9 +2703,9 @@
               "solar": 0.0,
               "wind": 0.0,
               "thermal": 2106.0,
-              "load": 3777.0,
+              "load": 3773.3,
               "supply": 2106.0,
-              "gap": -1671.0,
+              "gap": -1667.3,
               "source": "real",
               "solarSource": "estimated"
             },
@@ -2714,9 +2714,9 @@
               "solar": 0.0,
               "wind": 0.0,
               "thermal": 1755.0,
-              "load": 3777.0,
+              "load": 3773.3,
               "supply": 1755.0,
-              "gap": -2022.0,
+              "gap": -2018.3,
               "source": "real",
               "solarSource": "estimated"
             }
@@ -4293,7 +4293,7 @@
               "load": 3020.8,
               "supply": 1987.2,
               "gap": -1033.6,
-              "source": "real",
+              "source": "carried",
               "solarSource": "estimated"
             },
             {
@@ -4301,9 +4301,9 @@
               "solar": 0.0,
               "wind": 0.0,
               "thermal": 2052.0,
-              "load": 3020.8,
+              "load": 3014.8,
               "supply": 2052.0,
-              "gap": -968.8,
+              "gap": -962.8,
               "source": "real",
               "solarSource": "estimated"
             },
@@ -4312,9 +4312,9 @@
               "solar": 0.0,
               "wind": 0.0,
               "thermal": 1944.0,
-              "load": 3020.8,
+              "load": 3014.8,
               "supply": 1944.0,
-              "gap": -1076.8,
+              "gap": -1070.8,
               "source": "real",
               "solarSource": "estimated"
             },
@@ -4323,9 +4323,9 @@
               "solar": 0.0,
               "wind": 27.5,
               "thermal": 1836.0,
-              "load": 3016.7,
+              "load": 3013.6,
               "supply": 1863.5,
-              "gap": -1153.1,
+              "gap": -1150.1,
               "source": "real",
               "solarSource": "estimated"
             },
@@ -4334,9 +4334,9 @@
               "solar": 0.0,
               "wind": 84.9,
               "thermal": 1684.8,
-              "load": 3015.5,
+              "load": 3012.5,
               "supply": 1769.7,
-              "gap": -1245.9,
+              "gap": -1242.9,
               "source": "real",
               "solarSource": "estimated"
             },
@@ -5924,7 +5924,7 @@
               "load": 3020.8,
               "supply": 1987.3,
               "gap": -1033.5,
-              "source": "real",
+              "source": "carried",
               "solarSource": "estimated"
             },
             {
@@ -7555,7 +7555,7 @@
               "load": 3519.4,
               "supply": 2355.5,
               "gap": -1163.9,
-              "source": "real",
+              "source": "carried",
               "solarSource": "estimated"
             },
             {
@@ -9186,7 +9186,7 @@
               "load": 3021.6,
               "supply": 1989.2,
               "gap": -1032.4,
-              "source": "real",
+              "source": "carried",
               "solarSource": "estimated"
             },
             {
@@ -10817,7 +10817,7 @@
               "load": 2766.3,
               "supply": 1821.6,
               "gap": -944.7,
-              "source": "real",
+              "source": "carried",
               "solarSource": "estimated"
             },
             {
@@ -12448,7 +12448,7 @@
               "load": 2517.3,
               "supply": 1656.4,
               "gap": -861.0,
-              "source": "real",
+              "source": "carried",
               "solarSource": "estimated"
             },
             {
@@ -14079,7 +14079,7 @@
               "load": 2517.3,
               "supply": 1658.1,
               "gap": -859.2,
-              "source": "real",
+              "source": "carried",
               "solarSource": "estimated"
             },
             {
@@ -15710,7 +15710,7 @@
               "load": 2517.3,
               "supply": 1659.3,
               "gap": -858.0,
-              "source": "real",
+              "source": "carried",
               "solarSource": "estimated"
             },
             {
@@ -17341,7 +17341,7 @@
               "load": 2517.1,
               "supply": 1656.5,
               "gap": -860.6,
-              "source": "real",
+              "source": "carried",
               "solarSource": "estimated"
             },
             {
@@ -18972,7 +18972,7 @@
               "load": 2265.6,
               "supply": 1491.1,
               "gap": -774.5,
-              "source": "real",
+              "source": "carried",
               "solarSource": "estimated"
             },
             {
@@ -20603,7 +20603,7 @@
               "load": 2083.2,
               "supply": 1324.8,
               "gap": -758.4,
-              "source": "real",
+              "source": "carried",
               "solarSource": "estimated"
             },
             {
@@ -20611,9 +20611,9 @@
               "solar": 0.0,
               "wind": 0.0,
               "thermal": 1368.0,
-              "load": 2302.3,
+              "load": 2083.2,
               "supply": 1368.0,
-              "gap": -934.3,
+              "gap": -715.2,
               "source": "real",
               "solarSource": "estimated"
             },
@@ -22234,7 +22234,7 @@
               "load": 1763.2,
               "supply": 1175.3,
               "gap": -588.0,
-              "source": "real",
+              "source": "carried",
               "solarSource": "estimated"
             },
             {
@@ -22242,9 +22242,9 @@
               "solar": 0.0,
               "wind": 0.0,
               "thermal": 1197.0,
-              "load": 1763.9,
+              "load": 1760.4,
               "supply": 1197.0,
-              "gap": -566.9,
+              "gap": -563.4,
               "source": "real",
               "solarSource": "estimated"
             },
@@ -22253,9 +22253,9 @@
               "solar": 0.0,
               "wind": 0.0,
               "thermal": 1134.0,
-              "load": 1759.7,
+              "load": 1763.3,
               "supply": 1134.0,
-              "gap": -625.7,
+              "gap": -629.3,
               "source": "real",
               "solarSource": "estimated"
             },
@@ -22264,9 +22264,9 @@
               "solar": 0.0,
               "wind": 0.0,
               "thermal": 1071.0,
-              "load": 1764.4,
+              "load": 1762.6,
               "supply": 1071.0,
-              "gap": -693.4,
+              "gap": -691.6,
               "source": "real",
               "solarSource": "estimated"
             },
@@ -22275,9 +22275,9 @@
               "solar": 0.0,
               "wind": 0.0,
               "thermal": 982.8,
-              "load": 1759.7,
+              "load": 1763.3,
               "supply": 982.8,
-              "gap": -776.9,
+              "gap": -780.5,
               "source": "real",
               "solarSource": "estimated"
             },
@@ -22286,9 +22286,9 @@
               "solar": 0.0,
               "wind": 0.0,
               "thermal": 819.0,
-              "load": 1764.4,
+              "load": 1762.6,
               "supply": 819.0,
-              "gap": -945.4,
+              "gap": -943.6,
               "source": "real",
               "solarSource": "estimated"
             }
@@ -23865,7 +23865,7 @@
               "load": 1550.8,
               "supply": 993.7,
               "gap": -557.1,
-              "source": "real",
+              "source": "carried",
               "solarSource": "estimated"
             },
             {
@@ -23895,9 +23895,9 @@
               "solar": 0.0,
               "wind": 0.0,
               "thermal": 918.0,
-              "load": 1508.4,
+              "load": 1511.4,
               "supply": 918.0,
-              "gap": -590.4,
+              "gap": -593.4,
               "source": "real",
               "solarSource": "estimated"
             },
@@ -25496,7 +25496,7 @@
               "load": 2207.1,
               "supply": 828.0,
               "gap": -1379.1,
-              "source": "real",
+              "source": "carried",
               "solarSource": "estimated"
             },
             {
